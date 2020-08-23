@@ -11,7 +11,7 @@ from game import Game
 
 
 app = Flask(__name__)
-bot = mebots.Bot("tictactoebot", os.environ.get("BOT_TOKEN"))
+bot = mebots.Bot("chessbot", os.environ.get("BOT_TOKEN"))
 
 MAX_MESSAGE_LENGTH = 1000
 PREFIX = "/"
